@@ -16,11 +16,9 @@
         "ensure \"$persist_dir\" | Out-Null",
         "Get-ChildItem \"$persist_dir\\*\" -Include '程序配置.INI' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
     ],
-    "uninstaller": {
-        "script": [
-            "Get-ChildItem \"$dir\\*\" -Include '程序配置.INI' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
-        ]
-    },
+    "pre_uninstall": [
+        "Get-ChildItem \"$dir\\*\" -Include '程序配置.INI' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/miaomiaosoft/PandaOCR.Pro/releases/download/$version/PandaOCR.Pro_$version.zip"
