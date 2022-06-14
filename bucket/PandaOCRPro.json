@@ -14,11 +14,11 @@
     ],
     "pre_install": [
         "ensure \"$persist_dir\" | Out-Null",
-        "Get-ChildItem \"$persist_dir\\*\" -Include '配置文件.INI' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
+        "Get-ChildItem \"$persist_dir\\*\" -Include '程序配置.INI' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
     ],
     "uninstaller": {
         "script": [
-            "Get-ChildItem \"$dir\\*\" -Include '配置文件.INI' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
+            "Get-ChildItem \"$dir\\*\" -Include '程序配置.INI' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
         ]
     },
     "checkver": "github",
