@@ -22,5 +22,12 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/tmp": true
-    }
+    },
+    "cSpell.words": [
+      "autoupdate",
+      "checkver"
+    ],
+    "conventionalCommits.scopes": [
+      "manifest"
+    ]
 }
