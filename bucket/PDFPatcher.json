@@ -10,12 +10,7 @@
     "hash": "72bcaff0fbbaa10f572cf8816e12c8fc3299b0471e62a863c9188d5414ac9cc8",
     "pre_install": "if (!(Test-Path \"$persist_dir\\AppConfig.json\")) { New-Item \"$dir\\AppConfig.json\" -ItemType \"file\" -Value \"{}\" | Out-Null }",
     "bin": "PDFPatcher.exe",
-    "shortcuts": [
-        [
-            "PDFPatcher.exe",
-            "PDFPatcher"
-        ]
-    ],
+    "shortcuts": [["PDFPatcher.exe", "PDFPatcher"]],
     "persist": "AppConfig.json",
     "checkver": {
         "url": "https://github.com/wmjordan/PDFPatcher/issues/2",
