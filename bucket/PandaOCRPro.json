@@ -6,19 +6,9 @@
     "url": "https://github.com/miaomiaosoft/PandaOCR.Pro/releases/download/5.41/PandaOCR.Pro_5.41.zip",
     "hash": "7a604063622c370129df28e1f9999896491a14be56d20f4ac1d9869b8fc1358d",
     "bin": "PandaOCR.Pro.exe",
-    "shortcuts": [
-        [
-            "PandaOCR.Pro.exe",
-            "PandaOCR Pro"
-        ]
-    ],
-    "pre_install": [
-        "ensure \"$persist_dir\" | Out-Null",
-        "Get-ChildItem \"$persist_dir\\*\" -Include '程序配置.INI' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
-    ],
-    "pre_uninstall": [
-        "Get-ChildItem \"$dir\\*\" -Include '程序配置.INI' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
-    ],
+    "shortcuts": [["PandaOCR.Pro.exe", "PandaOCR Pro"]],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\AppConfig.json\")) { New-Item \"$dir\\程序配置.INI\" -ItemType \"file\" | Out-Null }",
+    "persist": "程序配置.INI",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/miaomiaosoft/PandaOCR.Pro/releases/download/$version/PandaOCR.Pro_$version.zip"
