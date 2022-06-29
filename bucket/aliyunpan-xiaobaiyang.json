@@ -4,6 +4,7 @@
     "homepage": "https://github.com/liupan1890/aliyunpan",
     "license": "Unknown",
     "url": "https://link.jscdn.cn/lanzou/aHR0cHM6Ly93d2UubGFuem91aS5jb20vaVdKeEQwMzdpazlp.7z",
+    "hash": "8467a10afa28daf514645eed93d1fd9c27fd347c0dd42979687ae38a036fb081",
     "extract_dir": "阿里云盘小白羊版v2",
     "installer": {
         "script": [
