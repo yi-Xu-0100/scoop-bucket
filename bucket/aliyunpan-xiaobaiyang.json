@@ -1,10 +1,9 @@
 {
-    "version": "2.9.24",
+    "version": "2.12.14",
     "description": "一款第三方的阿里云盘客户端，支持 Windows、macOS",
     "homepage": "https://github.com/liupan1890/aliyunpan",
     "license": "Unknown",
-    "url": "https://github.com/liupan1890/aliyunpan/releases/download/v2.9.24/Win.v2.9.24.7z",
-    "hash": "673cb559bc60f3d1e45b4cca22b3092f49649875ae983f2a58e38da4e6f3dfce",
+    "url": "https://develope.lanzoug.com/file/?BGJWaFloU2ICCwM7V2IFaVtkBT1e6FbMB79RvlKJVNkA5VSzWYsOvVKdVr1W5QK9BNRTsQLUV90GVgdoV2UGJwRyVjNZKlM2AmYDe1cyBTBbLwU3XntWcgdmUT5SYlQwAF9UallgDmdSMlY3VjcCOwRtU2QCaldtBicHZ1d4BjoEM1YzWTJTNAJsA2FXMgU2WycFcF5xVmkHMlFnUjxUZwAvVDNZMA51UjVWNVYtAmIEOFNkAjlXYAYzBzBXbwY1BD1WN1lgU2YCMQMwVzEFZVsyBWFeM1YxBzNRb1I7VGAAYVQ6WTwOaVIxVmRWNAItBGlTLAJ7VyAGcgdkV3kGbgRgVjxZNVMxAm0DYlc6BTJbMQUmXnVWPQdtUTJSaFRoADFUNVkxDmxSMVYwVjQCNgRuU2YCc1d7BicHZ1dnBnAEOVYwWTJTMgJiA2BXMwUwWzYFOF44VnIHdVEnUnlUaAAxVDVZMA5jUj1WNVYxAjUEa1NhAntXIAZoB3FXNgYzBD1WL1kzUzUCegNnVzIFM1svBTFeMA==",
     "extract_dir": "阿里云盘小白羊版v2",
     "installer": {
         "script": [
@@ -43,9 +42,5 @@
             "阿里云盘小白羊版.exe",
             "阿里云盘小白羊版"
         ]
-    ],
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/liupan1890/aliyunpan/releases/download/v$version/Win.v$version.7z"
-    }
+    ]
 }
