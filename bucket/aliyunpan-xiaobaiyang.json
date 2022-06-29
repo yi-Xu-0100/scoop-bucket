@@ -3,7 +3,7 @@
     "description": "一款第三方的阿里云盘客户端，支持 Windows、macOS",
     "homepage": "https://github.com/liupan1890/aliyunpan",
     "license": "Unknown",
-    "url": "https://develope.lanzoug.com/file/?BGJWaFloU2ICCwM7V2IFaVtkBT1e6FbMB79RvlKJVNkA5VSzWYsOvVKdVr1W5QK9BNRTsQLUV90GVgdoV2UGJwRyVjNZKlM2AmYDe1cyBTBbLwU3XntWcgdmUT5SYlQwAF9UallgDmdSMlY3VjcCOwRtU2QCaldtBicHZ1d4BjoEM1YzWTJTNAJsA2FXMgU2WycFcF5xVmkHMlFnUjxUZwAvVDNZMA51UjVWNVYtAmIEOFNkAjlXYAYzBzBXbwY1BD1WN1lgU2YCMQMwVzEFZVsyBWFeM1YxBzNRb1I7VGAAYVQ6WTwOaVIxVmRWNAItBGlTLAJ7VyAGcgdkV3kGbgRgVjxZNVMxAm0DYlc6BTJbMQUmXnVWPQdtUTJSaFRoADFUNVkxDmxSMVYwVjQCNgRuU2YCc1d7BicHZ1dnBnAEOVYwWTJTMgJiA2BXMwUwWzYFOF44VnIHdVEnUnlUaAAxVDVZMA5jUj1WNVYxAjUEa1NhAntXIAZoB3FXNgYzBD1WL1kzUzUCegNnVzIFM1svBTFeMA==",
+    "url": "https://s81.lanzoug.com/062920bb/2022/04/15/af2d521d296daee2a3a2e3855a9835d6.7z?st=srL5l_AKnqe2PGg69osV7w&e=1656507746&b=CbJawlDvUb1ZiwDaVeBU4FOJD7QNlVPoA7dY6waLA_bYE3wiAAVYFaVRvVCJSdAYwCXIOYwQ3CyMHZQsyXXQEMQkh&fi=67583278&pid=49-72-217-11&up=2&mp=0&co=1",
     "extract_dir": "阿里云盘小白羊版v2",
     "installer": {
         "script": [
