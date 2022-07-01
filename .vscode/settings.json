@@ -29,5 +29,8 @@
     ],
     "conventionalCommits.scopes": [
       "manifest"
-    ]
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+      }
 }
