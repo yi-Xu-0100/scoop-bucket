@@ -1,0 +1,25 @@
+{
+    "version": "5.0.2",
+    "description": "Universal Asynchronous Receiver/Transmitter(UART) Assistant, you can use it to communicate with self-developed programs or devices, etc.",
+    "homepage": "https://www.cmsoft.cn/resource/101.html",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://www.cmsoft.cn/resource/download/321"
+    },
+    "url": "https://github.com/yi-Xu-0100/scoop-bucket/files/9024920/uartassist5.0.2.zip",
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bin": "UARTAssist.exe",
+    "shortcuts": [
+        [
+            "UARTAssist.exe",
+            "UARTAssist"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/yi-Xu-0100/scoop-bucket/issues/1",
+        "regex": "(?<path>https://github.com/yi-Xu-0100/scoop-bucket/files/[\\d]+/uartassist([\\d.]+)\\.zip)"
+    },
+    "autoupdate": {
+        "url": "$matchPath"
+    }
+}
