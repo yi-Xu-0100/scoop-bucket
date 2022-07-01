@@ -6,8 +6,8 @@
         "identifier": "Shareware",
         "url": "https://www.cmsoft.cn/resource/download/321"
     },
-    "url": "https://github.com/yi-Xu-0100/scoop-bucket/files/9024920/uartassist5.0.2.zip",
-    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "url": "https://github.com/yi-Xu-0100/scoop-bucket/files/9026496/uartassist5.0.2.zip",
+    "hash": "d7e8900e0b91114f3778d8a8226b52b2ca0366a42ae1e7fdadc6ee0361238219",
     "bin": "UARTAssist.exe",
     "shortcuts": [
         [
