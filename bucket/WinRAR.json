@@ -1,0 +1,47 @@
+{
+    "version": "6.11",
+    "description": "Powerful archive manager",
+    "homepage": "https://rarlab.com/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://www.win-rar.com/gtb_priv.html?&L=0"
+    },
+    "notes": "Set up context menu within settings window.",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220317/wrr/winrar-x64-611sc.exe#/dl.7z",
+            "hash": "9d965e6a0233422ac02cd2ff276eb4e5d997d845a6d20ee22196564d248cfb9f"
+        },
+        "32bit": {
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20220317/wrr/winrar-x64-611sc.exe#/dl.7z",
+            "hash": "9d965e6a0233422ac02cd2ff276eb4e5d997d845a6d20ee22196564d248cfb9f"
+        }
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
+    "bin": [
+        "Rar.exe",
+        "UnRAR.exe",
+        "WinRAR.exe"
+    ],
+    "shortcuts": [
+        [
+            "WinRAR.exe",
+            "WinRAR"
+        ]
+    ],
+    "persist": "rarreg.key",
+    "checkver": {
+        "url": "http://www.kaixinit.com/info/soft/1712.html",
+        "regex": "WinRAR (?<version>[\\d.]+)[\\s\\S]*?https://www.win-rar.com/fileadmin/winrar-versions/sc/sc(?<data>[\\d]+)/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc$matchData/wrr/winrar-x64-$majorVersion$minorVersion$patchVersionsc.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc$matchData/wrr/winrar-x64-$majorVersion$minorVersion$patchVersionsc.exe#/dl.7z"
+            }
+        }
+    }
+}
