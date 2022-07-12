@@ -9,12 +9,14 @@
     "url": "http://free.cmsoft.cn/download/cmsoft/assistant/uartassist5.0.3.zip",
     "hash": "c77ce27aa97e50da329ce6d4c7ce123aa9c95827dcd08c0ac3e7095c300cf7b7",
     "bin": "UartAssist.exe",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\UartAssist.cfg\")) { New-Item \"$dir\\UartAssist.cfg\" | Out-Null }",
     "shortcuts": [
         [
             "UartAssist.exe",
             "UartAssist"
         ]
     ],
+    "persist": "UartAssist.cfg",
     "checkver": {
         "url": "https://www.cmsoft.cn/resource/101.html",
         "regex": "UartAssist串口调试助手[\\S\\s]+V(?<version>[\\d.]+)-软件工具-野人家园"
