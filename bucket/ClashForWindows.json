@@ -48,6 +48,7 @@
         "}"
     ],
     "post_install": [
+        "Start-Service -Name \"Clash Core Service\" -ErrorAction SilentlyContinue",
         "$checkCFW = !(Get-Process -Name \"Clash for Windows\" -ErrorAction SilentlyContinue)",
         "$checkClash = !(Get-Process -Name \"clash-win64\" -ErrorAction SilentlyContinue)",
         "if (($cmd -eq 'update') -and $checkCFW -and $checkClash) { Start-Process -WindowStyle hidden \"Clash for Windows.exe\" }",
