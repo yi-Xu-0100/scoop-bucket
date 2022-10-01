@@ -14,7 +14,7 @@ jobs:
       uses: yi-Xu-0100/scoop-excavator@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SCOOP_COMMITMESSAGEFORMAT: 'chore: upgrade <app> to version <version>'
+        COMMIT_MESSAGE_FORMAT: 'chore: upgrade <app> to version <version>'
         SCOOP_REPO: https://github.com/yi-Xu-0100/scoop
         SCOOP_BRANCH: develop
         SKIP_UPDATED: '1'
