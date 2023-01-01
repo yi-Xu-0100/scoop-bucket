@@ -19,9 +19,9 @@
     "persist": "AppConfig.json",
     "checkver": {
         "url": "https://github.com/wmjordan/PDFPatcher/issues/2",
-        "regex": "(?<path>https://github.com/wmjordan/PDFPatcher/files/[\\d]+/PDFPatcher\\.([\\d.]+)\\.7z\\.zip)"
+        "regex": "https://github.com/wmjordan/PDFPatcher/files/(?<timestamp>[\\d]+)/PDFPatcher\\.(?<version>[\\d.]+)\\.7z\\.zip"
     },
     "autoupdate": {
-        "url": "$matchPath"
+        "url": "https://github.com/wmjordan/PDFPatcher/files/$matchTimestamp/PDFPatcher.$version.7z.zip"
     }
 }
