@@ -1,13 +1,13 @@
 {
-    "version": "5.0.8",
+    "version": "5.0.7",
     "description": "Network Assistant, you can use it to communicate with self-developed network programs or network devices, etc.",
     "homepage": "https://www.cmsoft.cn/resource/102.html",
     "license": {
         "identifier": "Shareware",
         "url": "https://www.cmsoft.cn/resource/download/34"
     },
-    "url": "http://free.cmsoft.cn/download/cmsoft/assistant/netassist5.0.8.zip",
-    "hash": "7da46beb5348b2e5f9ddb3328a23fa0d711c7a1edf3b74088cb2073c1d7fd11d",
+    "url": "http://free.cmsoft.cn/download/cmsoft/assistant/netassist5.0.7.zip",
+    "hash": "f7cc224cd3aa9c96e7240b517423b0890cb16e29d973e17911afdbce50453faa",
     "bin": "NetAssist.exe",
     "shortcuts": [
         [
