@@ -1,0 +1,29 @@
+{
+    "version": "9.9.0.14569",
+    "description": "A new version of Tencent QQ based on Electron.",
+    "homepage": "https://im.qq.com/pcqq/index.shtml",
+    "license": "Unknown",
+    "notes": [
+        "The app runtime is persisted in appdata."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/bbabcfd7/QQ9.9.0.14569_x64.exe#/dl.7z",
+            "hash": "f9f9831648cae6244e3a9685f82712d2626b87e26eacfa1ab764888e03c8bc71"
+        }
+    },
+    "extract_dir": "Files",
+    "shortcuts": [
+        [
+            "QQ.exe",
+            "QQ"
+        ]
+    ],
+    "checkver": {
+        "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsDownloadUrl.js",
+        "regex": "QQNT/(?<md5>[a-z0-9]+)/QQ(?<version>[\\d\\.]+)_x64.exe"
+    },
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/$matchMd5/QQ$matchVersion_x64.exe#/dl.7z"
+    }
+}
