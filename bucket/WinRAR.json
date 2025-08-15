@@ -1,5 +1,5 @@
 {
-    "version": "7.10",
+    "version": "7.13",
     "description": "Powerful archive manager",
     "homepage": "https://rarlab.com/",
     "license": {
@@ -9,12 +9,12 @@
     "notes": "Set up context menu within settings window.",
     "architecture": {
         "64bit": {
-            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20251003/wrr/winrar-x64-710sc.exe#/dl.7z",
-            "hash": "fa51a32b31436451e48c34504dc577b961f10cf07e46c5e08da4555daab3afe4"
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20250804/wrr/winrar-x64-713sc.exe#/dl.7z",
+            "hash": "e1cc5b2f8dc422a01e96772d0377d6da3e795a7ec84ba3f3d3bce15fb444dc31"
         },
         "32bit": {
-            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20251003/wrr/winrar-x64-710sc.exe#/dl.7z",
-            "hash": "fa51a32b31436451e48c34504dc577b961f10cf07e46c5e08da4555daab3afe4"
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20250804/wrr/winrar-x64-713sc.exe#/dl.7z",
+            "hash": "e1cc5b2f8dc422a01e96772d0377d6da3e795a7ec84ba3f3d3bce15fb444dc31"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
